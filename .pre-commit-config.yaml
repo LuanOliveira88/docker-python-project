@@ -5,4 +5,3 @@ repos:
         name: check requirements files
         language: system
         entry: python -m pip freeze > requirements.txt; git add .
-        files: ^requirements.*\.txt$
